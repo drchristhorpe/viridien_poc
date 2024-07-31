@@ -1,6 +1,3 @@
 INPUT_FOLDER = 'inputs'
 OUTPUT_FOLDER = 'outputs'
-PROJECT_FOLDER = '/home/chris/science/experiments/2024/viridien_poc'
-AF_WEIGHTS_FOLDER = '/home/chris/science/cache'
-CONTAINER_URL = 'ghcr.io/sokrypton/colabfold:1.5.5-cuda11.8.0'
 COLABFOLD_OPTIONS = '--num-recycle 3 --random-seed 42 --amber --use-gpu-relax'

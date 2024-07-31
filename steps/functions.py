@@ -4,6 +4,8 @@ import toml
 import csv
 import json
 
+import os
+
 
 def make_filepath(config:Dict, in_or_out:str, foldername:str, filename:str) -> str:
     """
@@ -47,12 +49,12 @@ def deslugify_allele_slug(allele_slug:str) -> str:
     return allele_number.upper()
 
 
-def load_config() -> Dict:
+def load_config(environment:str) -> Dict:
     """
     This function will load the configuration file from the config.toml file.
 
     Args:
-        None
+        environemtne (str): A string to specify the environment to load the configuration for
 
     Returns:
         config (Dict): A dictionary with the following keys
@@ -60,8 +62,30 @@ def load_config() -> Dict:
             mhcflurry_models (str): The path to the mhcflurry models
             netmhcpan_path (str): The path to the netmhcpan executable
     """
+    errors = []
+    environment_config = {}
+    config = {}
     with open("config.toml", "r") as config_file:
         config = toml.load(config_file)
+    if environment == 'local':
+        environment_config_file = 'local.toml'
+    elif environment == 'poc':
+        environment_config_file = 'poc.toml'
+    else:
+        raise ValueError("environment must be either 'local' or 'poc'")
+    with open(environment_config_file, "r") as config_file:
+        environment_config = toml.load(config_file)
+    
+    if config and environment_config:
+        for key in environment_config.keys():
+            config[key] = environment_config[key]
+            if key in ['PROJECT_FOLDER', 'AF_WEIGHTS_FOLDER']:                
+                if not os.path.exists(environment_config[key]) or environment_config[key] == '':
+                    errors.append('missing_directory')
+        if errors:
+            config = None
+    else:
+        config = None
     return config
 
 
