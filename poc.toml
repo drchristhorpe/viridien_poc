@@ -1,3 +1,3 @@
-PROJECT_FOLDER = ''
-AF_WEIGHTS_FOLDER = ''
-CONTAINER_IMAGE = ''
+PROJECT_FOLDER = '/nfs/home/cthorpe/viridien_poc'
+AF_WEIGHTS_FOLDER = '/scratch/lgatineau/cache'
+CONTAINER_IMAGE = 'ghcr.io/sokrypton/colabfold:1.5.5-cuda12.2.2'
