@@ -66,9 +66,13 @@ def run_predictions(environment, structure_set, experiment_number, gpu_number, g
 
     experiment_a3m = None
     a3m_tmp_filepath = 'outputs/tmp'
+    experiments_folder = 'outputs/experiments'
 
     if not os.path.exists(a3m_tmp_filepath):
         os.makedirs(a3m_tmp_filepath)
+
+    if not os.path.exists(experiments_folder):
+        os.makedirs(experiments_folder)
 
 
     if experiment_number is None:
