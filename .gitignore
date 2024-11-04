@@ -166,3 +166,9 @@ outputs/predictions
 
 # Fasta files
 outputs/fasta
+
+# Experiment outputs
+outputs/experiments
+
+# TMP files
+outputs/tmp
