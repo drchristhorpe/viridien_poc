@@ -172,3 +172,8 @@ def create_tmp_fasta_file(allele_sequences:Dict, prediction:Dict, b2m_seq:str, f
     with open(filename, "w") as fasta:
         fasta.write(fasta_file)
     return fasta_file
+
+
+def create_combined_sequence(allele_sequences:Dict, prediction:Dict, b2m_seq:str, length:int) -> str:
+    prediction_sequence = f"{allele_sequences[prediction['allele_slug']][0:length]}{b2m_seq}{prediction['peptide_sequence']}"
+    return prediction_sequence
