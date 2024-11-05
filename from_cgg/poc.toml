@@ -1,5 +1,5 @@
-PROJECT_FOLDER = '/nfs/home/cthorpe/viridien_poc'
+PROJECT_FOLDER = '/nfs/home/lgatineau/viridien_poc'
 AF_WEIGHTS_FOLDER = '/scratch/lgatineau/cache'
 CONTAINER_IMAGE = 'ghcr.io/sokrypton/colabfold:1.5.5-cuda12.2.2'
-GPU_COUNT = 4
-GPU_NUMBERS = [ 0,1,2,3 ]
+NGPUS = 3
+List_GPUS = [ 0,1,2,3 ]
