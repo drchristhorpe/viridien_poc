@@ -1,0 +1,218 @@
+{
+    "31": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 50,
+        "filename": "experiments/experiment31.a3m"
+    },
+    "32": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 50,
+        "filename": "experiments/experiment32.a3m"
+    },
+    "33": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 50,
+        "filename": "experiments/experiment33.a3m"
+    },
+    "34": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 50,
+        "filename": "experiments/experiment34.a3m"
+    },
+    "35": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 50,
+        "filename": "experiments/experiment35.a3m"
+    },
+    "36": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 50,
+        "filename": "experiments/experiment36.a3m"
+    },
+    "37": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 50,
+        "filename": "experiments/experiment37.a3m"
+    },
+    "38": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 50,
+        "filename": "experiments/experiment38.a3m"
+    },
+    "39": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 50,
+        "filename": "experiments/experiment39.a3m"
+    },
+    "40": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 30,
+        "filename": "experiments/experiment40.a3m"
+    },
+    "41": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 30,
+        "filename": "experiments/experiment41.a3m"
+    },
+    "42": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 30,
+        "filename": "experiments/experiment42.a3m"
+    },
+    "43": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 30,
+        "filename": "experiments/experiment43.a3m"
+    },
+    "44": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 30,
+        "filename": "experiments/experiment44.a3m"
+    },
+    "45": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 30,
+        "filename": "experiments/experiment45.a3m"
+    },
+    "46": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 30,
+        "filename": "experiments/experiment46.a3m"
+    },
+    "47": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 30,
+        "filename": "experiments/experiment47.a3m"
+    },
+    "48": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 30,
+        "filename": "experiments/experiment48.a3m"
+    },
+    "49": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 15,
+        "filename": "experiments/experiment49.a3m"
+    },
+    "50": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 15,
+        "filename": "experiments/experiment50.a3m"
+    },
+    "51": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 15,
+        "filename": "experiments/experiment51.a3m"
+    },
+    "52": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 15,
+        "filename": "experiments/experiment52.a3m"
+    },
+    "53": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 15,
+        "filename": "experiments/experiment53.a3m"
+    },
+    "54": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 15,
+        "filename": "experiments/experiment54.a3m"
+    },
+    "55": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 15,
+        "filename": "experiments/experiment55.a3m"
+    },
+    "56": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 15,
+        "filename": "experiments/experiment56.a3m"
+    },
+    "57": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 15,
+        "filename": "experiments/experiment57.a3m"
+    },
+    "58": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 1,
+        "filename": "experiments/experiment58.a3m"
+    },
+    "59": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 1,
+        "filename": "experiments/experiment59.a3m"
+    },
+    "60": {
+        "binding_cutoff": 1,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 1,
+        "filename": "experiments/experiment60.a3m"
+    },
+    "61": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 1,
+        "filename": "experiments/experiment61.a3m"
+    },
+    "62": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 1,
+        "filename": "experiments/experiment62.a3m"
+    },
+    "63": {
+        "binding_cutoff": 0.9,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 1,
+        "filename": "experiments/experiment63.a3m"
+    },
+    "64": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 8,
+        "allele_cutoff": 1,
+        "filename": "experiments/experiment64.a3m"
+    },
+    "65": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 6,
+        "allele_cutoff": 1,
+        "filename": "experiments/experiment65.a3m"
+    },
+    "66": {
+        "binding_cutoff": 0.8,
+        "hamming_cutoff": 3,
+        "allele_cutoff": 1,
+        "filename": "experiments/experiment66.a3m"
+    }
+}
