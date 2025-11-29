@@ -1,0 +1,44 @@
+2024-10-22 11:55:28,997 Running colabfold 1.5.5
+2024-10-22 11:55:29,080 Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter CUDA
+2024-10-22 11:55:29,080 Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2024-10-22 11:55:30,069 Running on GPU
+2024-10-22 11:55:30,437 Found 6 citations for tools or databases
+2024-10-22 11:55:30,437 Query 1/1: experiment9 (length 382)
+2024-10-22 11:55:34,047 Setting max_seq=508, max_extra_seq=1791
+2024-10-22 11:56:18,314 alphafold2_multimer_v3_model_1_seed_042 recycle=0 pLDDT=72.2 pTM=0.566 ipTM=0.281
+2024-10-22 11:56:32,955 alphafold2_multimer_v3_model_1_seed_042 recycle=1 pLDDT=78.8 pTM=0.7 ipTM=0.566 tol=2.21
+2024-10-22 11:56:47,654 alphafold2_multimer_v3_model_1_seed_042 recycle=2 pLDDT=89.4 pTM=0.839 ipTM=0.791 tol=2.46
+2024-10-22 11:57:02,412 alphafold2_multimer_v3_model_1_seed_042 recycle=3 pLDDT=92.8 pTM=0.905 ipTM=0.889 tol=0.812
+2024-10-22 11:57:02,413 alphafold2_multimer_v3_model_1_seed_042 took 85.1s (3 recycles)
+2024-10-22 11:57:17,179 alphafold2_multimer_v3_model_2_seed_042 recycle=0 pLDDT=71.2 pTM=0.541 ipTM=0.239
+2024-10-22 11:57:31,896 alphafold2_multimer_v3_model_2_seed_042 recycle=1 pLDDT=77.4 pTM=0.66 ipTM=0.469 tol=4.28
+2024-10-22 11:57:46,816 alphafold2_multimer_v3_model_2_seed_042 recycle=2 pLDDT=87.8 pTM=0.788 ipTM=0.731 tol=1.6
+2024-10-22 11:58:01,619 alphafold2_multimer_v3_model_2_seed_042 recycle=3 pLDDT=91.8 pTM=0.879 ipTM=0.857 tol=0.925
+2024-10-22 11:58:01,619 alphafold2_multimer_v3_model_2_seed_042 took 59.1s (3 recycles)
+2024-10-22 11:58:16,507 alphafold2_multimer_v3_model_3_seed_042 recycle=0 pLDDT=72.8 pTM=0.512 ipTM=0.143
+2024-10-22 11:58:31,385 alphafold2_multimer_v3_model_3_seed_042 recycle=1 pLDDT=80.6 pTM=0.552 ipTM=0.453 tol=8.76
+2024-10-22 11:58:46,232 alphafold2_multimer_v3_model_3_seed_042 recycle=2 pLDDT=87.8 pTM=0.725 ipTM=0.637 tol=5.21
+2024-10-22 11:59:01,104 alphafold2_multimer_v3_model_3_seed_042 recycle=3 pLDDT=91.8 pTM=0.771 ipTM=0.847 tol=1.25
+2024-10-22 11:59:01,104 alphafold2_multimer_v3_model_3_seed_042 took 59.4s (3 recycles)
+2024-10-22 11:59:16,417 alphafold2_multimer_v3_model_4_seed_042 recycle=0 pLDDT=72.8 pTM=0.542 ipTM=0.232
+2024-10-22 11:59:31,863 alphafold2_multimer_v3_model_4_seed_042 recycle=1 pLDDT=85.8 pTM=0.79 ipTM=0.736 tol=2.9
+2024-10-22 11:59:47,243 alphafold2_multimer_v3_model_4_seed_042 recycle=2 pLDDT=89.3 pTM=0.84 ipTM=0.814 tol=1.33
+2024-10-22 12:00:02,378 alphafold2_multimer_v3_model_4_seed_042 recycle=3 pLDDT=90.7 pTM=0.833 ipTM=0.858 tol=0.576
+2024-10-22 12:00:02,379 alphafold2_multimer_v3_model_4_seed_042 took 61.2s (3 recycles)
+2024-10-22 12:00:17,579 alphafold2_multimer_v3_model_5_seed_042 recycle=0 pLDDT=68.2 pTM=0.521 ipTM=0.196
+2024-10-22 12:00:32,679 alphafold2_multimer_v3_model_5_seed_042 recycle=1 pLDDT=77.8 pTM=0.693 ipTM=0.487 tol=5.27
+2024-10-22 12:00:47,805 alphafold2_multimer_v3_model_5_seed_042 recycle=2 pLDDT=86.3 pTM=0.803 ipTM=0.728 tol=1.84
+2024-10-22 12:01:02,463 alphafold2_multimer_v3_model_5_seed_042 recycle=3 pLDDT=91.4 pTM=0.778 ipTM=0.844 tol=1.14
+2024-10-22 12:01:02,463 alphafold2_multimer_v3_model_5_seed_042 took 60.0s (3 recycles)
+2024-10-22 12:01:02,560 reranking models by 'multimer' metric
+2024-10-22 12:01:13,241 Relaxation took 10.7s
+2024-10-22 12:01:13,241 rank_001_alphafold2_multimer_v3_model_1_seed_042 pLDDT=92.8 pTM=0.905 ipTM=0.889
+2024-10-22 12:01:20,886 Relaxation took 7.6s
+2024-10-22 12:01:20,886 rank_002_alphafold2_multimer_v3_model_2_seed_042 pLDDT=91.8 pTM=0.879 ipTM=0.857
+2024-10-22 12:01:28,556 Relaxation took 7.7s
+2024-10-22 12:01:28,556 rank_003_alphafold2_multimer_v3_model_4_seed_042 pLDDT=90.7 pTM=0.833 ipTM=0.858
+2024-10-22 12:01:36,229 Relaxation took 7.7s
+2024-10-22 12:01:36,229 rank_004_alphafold2_multimer_v3_model_5_seed_042 pLDDT=91.4 pTM=0.778 ipTM=0.844
+2024-10-22 12:01:43,920 Relaxation took 7.7s
+2024-10-22 12:01:43,920 rank_005_alphafold2_multimer_v3_model_3_seed_042 pLDDT=91.8 pTM=0.771 ipTM=0.847
+2024-10-22 12:01:44,700 Done
